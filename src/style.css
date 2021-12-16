@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Monoton';
+    src: url(./Monoton-Regular.ttf);
+}
+
+body {
+    background: url('./Burger.png');
+    background-color: rebeccapurple;
+}
+
+.content {
+    margin: 80px 120px 80px 120px;
+    padding: 80px;
+    position: relative;
+    border-radius: 30px;
+    max-width: 810px;
+    padding: 55px;
+    margin: 0 auto;
+}
+
+.title-div {
+    font-size: 3vh;
+    font-family: 'Monoton';
+    text-align: center;
+}
+
+.about-customer {
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.std-div {
+    color: seashell;
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 1%;
+    box-shadow: 0 0 0 15px deeppink, 0 0 0 30px firebrick;
+}
+
+.subtitle-div {
+    width: 75%;
+    text-align: center;
+}
+
+.std-div:before,
+.std-div:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.hours {
+    font-size: 2.5vh;
+}
+
+.times,
+.location-address {
+    text-align: center;
+}
+
+.hours-title {
+    padding-left: 80px;
+}
+
+.about-p {
+    padding: 40px;
+    font-size: 2vh;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rebeccapurple;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-size: 2vh;
+    color: white;
+}
+
+.item-description-div {
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.item-image {
+    max-width: 50%;
+    height: 300px;
+}
+
+.menu-item-div {
+    display: flex;
+    justify-content: space-between;
+}
